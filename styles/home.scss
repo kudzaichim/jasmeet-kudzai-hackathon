@@ -1,5 +1,6 @@
 @use "./partials/resets" as *;
 @use "./partials/variables" as *;
+@use "./partials/starter" as *;
 
 .nav {
   background-color: $black;

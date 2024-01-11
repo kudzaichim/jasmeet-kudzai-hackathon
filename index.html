@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mars 2030</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/home.css" />
+    <script src="./scripts/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -61,12 +66,12 @@
               The biggest shock you'll experience while living on Mars, aside
               from being on a completely different planet of course, is the
               weather. Our partner, NASA, has an InSight lander that takes
-              continuous weather measurements on the surface of Mars. Explore
-              the image below and see what's happening on the big red planet
-              right now!
+              continuous weather measurements on the surface of Mars. Click the
+              button below to see what's happening on the big red planet right
+              now!
             </p>
           </div>
-          <div class="weather__api-image"></div>
+          <a href="#"><button>Mars Live Weather</button></a>
         </div>
       </section>
       <section class="isp">
@@ -153,5 +158,6 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
   </body>
 </html>
