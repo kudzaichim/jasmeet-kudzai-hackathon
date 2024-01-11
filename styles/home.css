@@ -126,6 +126,9 @@ img {
   height: 70vh;
 }
 
+.gallery {
+  background-color: #fbf3eb;
+}
 .gallery__wrapper {
   padding: 4rem 4rem 2rem 4rem;
   display: flex;
