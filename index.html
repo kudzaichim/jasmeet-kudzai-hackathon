@@ -11,19 +11,22 @@
       <section class="nav">
         <nav class="nav__bar">
           <div class="nav__bar-left">
-            <div class="nav__logo-container">
-              <a href="./index.html" class="nav__logo-link"
-                ><img
-                  src="./assets/mars-2030-logo.jpg"
-                  alt="Mars 2030 logo"
-                  class="nav__logo"
-              /></a>
-            </div>
             <ul class="nav__list">
               <a href="index.html" class="nav__list-link">
                 <li class="nav__list-item">The Mission</li>
               </a>
+              <a href="index.html" class="nav__list-link">
+                <li class="nav__list-item">Gallery</li>
+              </a>
             </ul>
+          </div>
+          <div class="nav__logo-container">
+            <a href="./index.html" class="nav__logo-link"
+              ><img
+                src="./assets/mars-2030-logo.jpg"
+                alt="Mars 2030 logo"
+                class="nav__logo"
+            /></a>
           </div>
           <div class="nav__bar-right">
             <ul class="nav__list">
@@ -39,10 +42,12 @@
       </section>
       <section class="hero">
         <div class="hero__image">
-          <h1 class="hero__title">
-            Are you ready for the mission of a lifetime?
-          </h1>
-          <a href="#"><button class="hero__button">SIGN UP TODAY</button></a>
+          <div class="hero__image-overlay">
+            <h1 class="hero__title">
+              Are you ready for the mission of a lifetime?
+            </h1>
+            <a href="#"><button class="hero__button">SIGN UP TODAY</button></a>
+          </div>
         </div>
       </section>
     </header>
@@ -52,7 +57,14 @@
         <div class="weather__wrapper">
           <div class="weather__writing">
             <h2 class="weather__title">Life on Mars</h2>
-            <p class="weather__copy"></p>
+            <p class="weather__copy">
+              The biggest shock you'll experience while living on Mars, aside
+              from being on a completely different planet of course, is the
+              weather. Our partner, NASA, has an InSight lander that takes
+              continuous weather measurements on the surface of Mars. Explore
+              the image below and see what's happening on the big red planet
+              right now!
+            </p>
           </div>
           <div class="weather__api-image"></div>
         </div>
