@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mars 2030</title>
+    <link rel="stylesheet" href="./styles/home.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <section class="nav">
+        <nav class="nav__bar">
+          <div class="nav__bar-left">
+            <div class="nav__logo-container">
+              <a href="./index.html" class="nav__logo-link"
+                ><img
+                  src="./assets/mars-2030-logo.jpg"
+                  alt="Mars 2030 logo"
+                  class="nav__logo"
+              /></a>
+            </div>
+            <ul class="nav__list">
+              <a href="index.html" class="nav__list-link">
+                <li class="nav__list-item">The Mission</li>
+              </a>
+            </ul>
+          </div>
+          <div class="nav__bar-right">
+            <ul class="nav__list">
+              <a href="#" class="nav__list-link">
+                <li class="nav__list-item">Sign In</li>
+              </a>
+              <a href="#" class="nav__list-link">
+                <li class="nav__list-item">Sign Up</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <section class="hero">
+        <div class="hero__image">
+          <h1 class="hero__title">
+            Are you ready for the mission of a lifetime?
+          </h1>
+          <a href="#"><button class="hero__button">SIGN UP TODAY</button></a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="weather">
+        <div class="weather__wrapper">
+          <div class="weather__writing">
+            <h2 class="weather__title">Life on Mars</h2>
+            <p class="weather__copy"></p>
+          </div>
+          <div class="weather__api-image"></div>
+        </div>
+      </section>
+      <section class="isp"></section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="contact"></div>
+      </div>
+    </footer>
+  </body>
 </html>
